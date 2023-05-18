@@ -11,6 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+   
     
     
 }
@@ -24,13 +25,51 @@
 }
 
 .title{
-    padding: 80px;
+
+    display: inline;
+    padding: 10px;
     position: relative;
-    right: 50%; width: 80%;top:100px;
+    right: 30%; left:15px; width: 80%;top:200px;
     color: rgb(255, 255, 255);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-family:Prueba;
+    font-size: 30px;
+    
 
 }
 
+.label{
+    
+    padding: 10px;
+    position: relative;
+    right: 200%; width: 80%;top:400px;
+    background: none;
+    font-size: 50px;
+    size: "32";
+
+    
+}
+
+.email{
+    padding: 10px;
+    position: relative;
+    right: 200%; width: 80%;top:350px;
+    background: none;
+    font-size: 50px;
+
+}
+
+/* .boton{
+    padding: 10px;
+    position: relative;
+    right: 200%; width: 80%;top:350px;
+    background: none;
+    font-size: 50px;
+} */
+
+.foot{
+    position: relative;
+    bottom: 80px;left: 50px;
+    color:rgb(255, 255, 255);
+   
+}
 
