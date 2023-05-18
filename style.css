@@ -1,0 +1,36 @@
+
+@font-face{
+    font-family:Prueba;
+    src: url(Caveat.ttf);
+}
+
+.body{
+    display: flex;
+    height: 1000px;
+    background-image: url(https://img.freepik.com/foto-gratis/mujer-joven-relajante-naturaleza_23-2149066303.jpg?w=740&t=st=1684360320~exp=1684360920~hmac=e13f5b31d41ca3f71f3a8e18f76aa54b9630d0045dafc1040a7fb6a9cf3dbd29);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.name{
+    padding: 10px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family:Prueba;
+
+           
+}
+
+.title{
+    padding: 80px;
+    position: relative;
+    right: 50%; width: 80%;top:100px;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+
