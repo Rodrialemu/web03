@@ -5,9 +5,10 @@
 }
 
 .body{
+    
     display: flex;
     height: 1000px;
-    background-image: url(https://img.freepik.com/foto-gratis/mujer-joven-relajante-naturaleza_23-2149066303.jpg?w=740&t=st=1684360320~exp=1684360920~hmac=e13f5b31d41ca3f71f3a8e18f76aa54b9630d0045dafc1040a7fb6a9cf3dbd29);
+    background-image: url(https://img.freepik.com/foto-gratis/recreacion-montanas-al-atardecer-verano_651396-2308.jpg?w=740&t=st=1684451903~exp=1684452503~hmac=446a98c281497dc0068e2f948e91f2b0c7acf635a37f37aaad4f009a7e25dcc2);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -16,8 +17,9 @@
     
 }
 .name{
-    padding: 10px;
-    margin-left: 50px;
+    text-align: justify;
+    padding: 40px;
+    margin-left: 2px;
     color: rgb(0, 0, 0);
     font-family:Prueba;
 
@@ -25,15 +27,29 @@
 }
 
 .title{
-
+    
     display: inline;
     padding: 10px;
     position: relative;
-    right: 30%; left:15px; width: 80%;top:200px;
+    right: 30%; left:15px; width: 80%;top:300px;
+    text-align: justify;
     color: rgb(255, 255, 255);
     font-family:Prueba;
-    font-size: 30px;
+    font-size: 35px;
     
+
+}
+
+.summary{
+
+    display:block;
+    padding: 15px;
+    position: relative;
+    right: 760px; left:15px; width: 80%;top:300px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family:Prueba;
+    font-size: 20px;
 
 }
 
@@ -41,10 +57,11 @@
     
     padding: 10px;
     position: relative;
-    right: 200%; width: 80%;top:400px;
+    right: 760px; width: 80%;top:400px;
     background: none;
     font-size: 50px;
     size: "32";
+   
 
     
 }
@@ -52,24 +69,34 @@
 .email{
     padding: 10px;
     position: relative;
-    right: 200%; width: 80%;top:350px;
+    right: 760px; width: 80%;top:350px;
     background: none;
     font-size: 50px;
+  
 
 }
 
-/* .boton{
-    padding: 10px;
-    position: relative;
-    right: 200%; width: 80%;top:350px;
-    background: none;
-    font-size: 50px;
-} */
+.btn{
+    top:474px;right:890px;
+    padding:8px;
+    width: 80px;
+    background-color: rgb(225, 83, 31);
+    border-radius: 10px;
+    border: none;
+    
+
+}
+
 
 .foot{
     position: relative;
-    bottom: 80px;left: 50px;
-    color:rgb(255, 255, 255);
-   
+    left: 150px;bottom: 70px; 20px;
+    color: white;
+    font-size:20px;
+    font-family:Prueba;
+    
+    
+
 }
+
 
