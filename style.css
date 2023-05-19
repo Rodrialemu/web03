@@ -1,55 +1,63 @@
 
-@font-face{
-    font-family:Prueba;
+
+
+@font-face {
+    font-family: Prueba;
     src: url(Caveat.ttf);
 }
 
 
-.body{
-    
+.body {
+
     display: flex;
     height: 1000px;
     background-image: url(https://img.freepik.com/foto-gratis/recreacion-montanas-al-atardecer-verano_651396-2308.jpg?w=740&t=st=1684451903~exp=1684452503~hmac=446a98c281497dc0068e2f948e91f2b0c7acf635a37f37aaad4f009a7e25dcc2);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
-    
-    
+
+
+
 }
-.name{
+
+.name {
     text-align: justify;
     padding: 40px;
-    margin-left: 2px;
     color: rgb(0, 0, 0);
-    font-family:Prueba;
+    font-family: Prueba;
 
-           
+
 }
 
-.title{
-    
+.title {
+
     display: inline;
+    text-align: justify;
     padding: 10px;
     position: relative;
-    right: 30%; left:15px; width: 80%;top:300px;
-    text-align: justify;
+    right: 30%;
+    left: 15px;
+    width: 80%;
+    top: 300px;
     color: rgb(255, 255, 255);
-    font-family:Prueba;
+    font-family: Prueba;
     font-size: 35px;
-    
+
 
 }
 
-.summary{
+.summary {
 
-    display:block;
+    display: block;
+    text-align: justify;
     padding: 15px;
     position: relative;
-    right: 760px; left:15px; width: 80%;top:300px;
-    text-align: justify;
+    right: 760px;
+    left: 15px;
+    width: 80%;
+    top: 300px;
     color: rgb(255, 255, 255);
-    font-family:Prueba;
+    font-family: Prueba;
     font-size: 20px;
 
 }
@@ -57,23 +65,28 @@
 
 .form-group {
     margin-bottom: 20px;
-    
+
 
 }
 
 input[type="text"],
 input[type="email"] {
+
     position: relative;
-    left: 50px;top: 300px;
+    left: 50px;
+    top: 300px;
     width: 40%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+   
 
 button {
+
     position: relative;
-    left: 50px;top: 300px;
+    left: 50px;
+    top: 300px;
     padding: 10px 20px;
     background-color: #f1621f;
     color: white;
@@ -83,22 +96,24 @@ button {
 }
 
 .social-media {
-    text-align: center;
-    margin-top: 400px;left: 50px;
+
+    text-align: justify;
+    margin-top: 300px;
+    left: 50px;
 }
 
 .social-media img {
-    width: 30px;
+    width: 100px;
     margin: 0 10px;
 }
 
-.foot{
+.foot {
+    
     position: relative;
-    left: 50px;top: 200px;
+    left: 50px;
+    top: 200px;
     color: white;
-    font-size:20px;
-    font-family:Prueba;
-    
-    
+    font-size: 20px;
+    font-family: Prueba;
 
 }
