@@ -4,6 +4,7 @@
     src: url(Caveat.ttf);
 }
 
+
 .body{
     
     display: flex;
@@ -53,44 +54,47 @@
 
 }
 
-.label{
-    
-    padding: 10px;
-    position: relative;
-    right: 760px; width: 80%;top:400px;
-    background: none;
-    font-size: 50px;
-    size: "32";
-   
 
+.form-group {
+    margin-bottom: 20px;
     
-}
-
-.email{
-    padding: 10px;
-    position: relative;
-    right: 760px; width: 80%;top:350px;
-    background: none;
-    font-size: 50px;
-  
 
 }
 
-.btn{
-    top:474px;right:890px;
-    padding:8px;
-    width: 80px;
-    background-color: rgb(225, 83, 31);
-    border-radius: 10px;
+input[type="text"],
+input[type="email"] {
+    position: relative;
+    left: 50px;top: 300px;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    position: relative;
+    left: 50px;top: 300px;
+    padding: 10px 20px;
+    background-color: #f1621f;
+    color: white;
     border: none;
-    
-
+    border-radius: 4px;
+    cursor: pointer;
 }
 
+.social-media {
+    text-align: center;
+    margin-top: 400px;left: 50px;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
 
 .foot{
     position: relative;
-    left: 150px;bottom: 70px; 20px;
+    left: 50px;top: 200px;
     color: white;
     font-size:20px;
     font-family:Prueba;
@@ -98,5 +102,3 @@
     
 
 }
-
-
