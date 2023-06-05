@@ -8,9 +8,9 @@
 
 
 .body {
-
+    min-height: auto;
+    min-height: auto;
     display: flex;
-    height: 1000px;
     background-image: url(https://img.freepik.com/foto-gratis/recreacion-montanas-al-atardecer-verano_651396-2308.jpg?w=740&t=st=1684451903~exp=1684452503~hmac=446a98c281497dc0068e2f948e91f2b0c7acf635a37f37aaad4f009a7e25dcc2);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 
 .name {
     text-align: justify;
-    padding: 40px;
+    padding: 50px;
     color: rgb(0, 0, 0);
     font-family: Prueba;
 
@@ -103,15 +103,13 @@ button {
 }
 
 .social-media img {
-    width: 100px;
+    width: 200px;
     margin: 0 10px;
 }
 
 .foot {
     
     position: relative;
-    left: 50px;
-    top: 200px;
     color: white;
     font-size: 20px;
     font-family: Prueba;
